@@ -39,7 +39,7 @@ export default defineAppConfig({
       showLinkIcon: true,
       exclude: [],
       fluid: true,
-      title: 'Untitled404 Learning'
+      title: 'Untitled404'
     },
 
     footer: {
@@ -57,11 +57,27 @@ export default defineAppConfig({
 
   prose: {
     h5: {
-      icon: 'i-ri-arrow-right-double-fill'
+      icon: 'i-ri-skip-right-line'
     },
 
     h6: {
+      icon: 'i-ri-send-plane-2-line'
+    },
+
+    h1: {
+      icon: 'i-ri-arrow-right-wide-fill'
+    },
+
+    h2: {
       icon: 'i-ri-arrow-right-double-fill'
+    },
+
+    h3: {
+      icon: 'i-ri-corner-up-right-double-line'
+    },
+
+    h4: {
+      icon: 'i-ri-expand-right-line'
     }
   }
 })
