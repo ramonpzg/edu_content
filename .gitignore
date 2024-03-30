@@ -11,3 +11,4 @@ sw.*
 .env
 .output
 notebooks
+archived_docs
