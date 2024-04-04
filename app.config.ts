@@ -39,7 +39,7 @@ export default defineAppConfig({
       showLinkIcon: true,
       exclude: [],
       fluid: true,
-      title: 'Untitled404'
+      title: 'Up4 Tech'
     },
 
     footer: {
