@@ -56,6 +56,9 @@ jobs:
         with:
           version: ${{ matrix.node }}
           cache: ${{ steps.pkgman.outputs.cache }}
+      
+      - name: Clear cache
+        run: ${{ steps.pkgman.outputs.package_manager }} cache clean
 
       - name: Install dependencies
         run: ${{ steps.pkgman.outputs.package_manager }} install
