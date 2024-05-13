@@ -58,7 +58,7 @@ jobs:
           cache: ${{ steps.pkgman.outputs.cache }}
       
       - name: Clear cache
-        run: npx pnpm cache clean
+        run: npm cache clean --force
 
       - name: Install dependencies
         run: ${{ steps.pkgman.outputs.package_manager }} install --force
