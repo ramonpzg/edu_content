@@ -58,10 +58,10 @@ jobs:
           cache: ${{ steps.pkgman.outputs.cache }}
       
       - name: Clear cache
-        run: ${{ steps.pkgman.outputs.package_manager }} cache clean
+        run: npx pnpm cache clean
 
       - name: Install dependencies
-        run: ${{ steps.pkgman.outputs.package_manager }} install
+        run: ${{ steps.pkgman.outputs.package_manager }} install --force
 
       - name: Install @nuxthq/studio
         run: ${{ steps.pkgman.outputs.package_manager }} add -D @nuxthq/studio
