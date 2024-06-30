@@ -57,27 +57,27 @@ export default defineAppConfig({
 
   prose: {
     h5: {
-      icon: 'i-ri-skip-right-line'
+      icon: 'ri:arrow-right-wide-line'
     },
 
     h6: {
-      icon: 'i-ri-send-plane-2-line'
+      icon: 'ri:arrow-right-wide-line'
     },
 
     h1: {
-      icon: 'i-ri-arrow-right-wide-fill'
+      icon: 'ri:arrow-right-s-line'
     },
 
     h2: {
-      icon: 'i-ri-arrow-right-double-fill'
+      icon: 'ri:arrow-right-double-line'
     },
 
     h3: {
-      icon: 'i-ri-corner-up-right-double-line'
+      icon: 'ri:arrow-right-s-fill'
     },
 
     h4: {
-      icon: 'i-ri-expand-right-line'
+      icon: 'ri:arrow-right-wide-line'
     }
   }
 })
